@@ -17,11 +17,7 @@
 }
 
 body {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  box-sizing: border-box;
-  flex-wrap: wrap;
+  
 
   margin: 0;
 
@@ -32,6 +28,19 @@ body {
   line-height: 1.2%;
 
   background: #FFFFFF;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+  margin: 0;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 .weather-now {
@@ -170,7 +179,7 @@ hr {
   display: flex;
   justify-content: center;
 
-  width: auto;
+  
 }
 
 .weather-week > .this-week {

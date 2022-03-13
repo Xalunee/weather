@@ -21,8 +21,7 @@ body {
   flex-direction: row;
   align-items: baseline;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
+  flex-wrap: wrap;
 
   margin: 0;
 
@@ -167,11 +166,18 @@ hr {
   opacity: 0.5;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+
+  width: auto;
+}
+
 .weather-week > .this-week {
   margin-left: 60px;
 }
 
-.weather-week > .days {
+section > .days {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -180,7 +186,6 @@ hr {
   height: 557px;
 
   margin-top: 70px;
-  margin-left: 117px;
 }
 
 .column {
